@@ -5,5 +5,5 @@ puts 'Table of Contents'.center(line_width)
 
 puts ''
 table.zip(page).each do |table, page|
-puts table.ljust(line_width/2) + page.rjust(line_width/2)
+  puts table.ljust(line_width/2) + page.rjust(line_width/2)
 end
