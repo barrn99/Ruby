@@ -9,7 +9,7 @@ while cyear.to_i	<= eyear.to_i
 	if cyear % 4 == 0  && cyear % 100 != 0
 		puts cyear
 	elsif cyear % 100 == 0 && cyear % 400 == 0
-		puts cyear		
+		puts cyear
 	end
 	cyear = cyear.to_i + 1
 end
